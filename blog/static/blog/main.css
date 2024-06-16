@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(34, 33, 33) !important; 
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  
+  .bg-steel {
+    background-color: #494b4d;
+  }
+  
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: white;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+    color: white;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .row{
+    margin-top: 80px;
+  }
+
+  .horizontal-line {
+    border: none; /* Remove default border */
+    border-top: 2px solid rgb(208, 208, 208); /* Set top border with desired width and color */
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
+  #logout-form {
+    display: inline;
+  }
+  #logout-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+  }
+
+  
+/* Style for pagination buttons */
+
+.pagination_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-btn {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px !important;
+  background-color: #393a3b !important;
+  color: #fff;
+  border: none;
+  border-radius: 50% !important;
+  text-decoration: none;
+  margin-top: 2px;
+}
+
+.pagination_box a{
+  margin-bottom: 2px !important;
+} 
+
+/* Style for active pagination button */
+.pagination-btn.active {
+  background-color: #313132 !important;
+}
+
+/* Style for disabled pagination button */
+.pagination-btn.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-outline-info{
+  border-color: #656569 !important;
+}
+
+/* Style for pagination buttons on hover */
+.pagination-btn:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white ;
+}
+
+/* Style for previous and next pagination buttons */
+.pagination-btn.prev-next {
+  margin: 0 10px;
+}
+
+.media{
+  border-radius: 10px;
+  background-color: #3f3e3e;
+}
+
+.media:hover{
+  box-shadow:  0 0 10px white
+}
